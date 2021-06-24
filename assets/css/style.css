@@ -1,0 +1,116 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+:root {
+    --primary: rgb(68, 179, 212);
+    --secondary: rgb(28, 120, 163);
+    --tertiary: rgb(176, 221, 247);
+    --dark: rgb(7, 6, 6);
+    --light: rgb(255, 252, 247);
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: rgba(208, 233, 232, 0.87);
+
+}
+p {
+    margin: 0;
+}
+
+/*header*/
+header{
+    padding: 20px 25px;
+    background-color: var(--primary);
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    top: 0;
+    border-radius: 0 0 15px 15px;
+}
+header h1{
+    font-weight: bolder;
+    font-size: 36px;
+    color: var(--dark);
+    margin: 0px;
+    text-shadow: 0 0 10px rgba(73, 70, 70,0.5);
+}
+header a{
+    color: var(--dark);
+    text-decoration: none;
+}
+header nav{
+    margin: 7px 0px;
+}
+header nav ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+header nav ul li a{
+    padding: 10px 15px;
+    font-weight: lighter;
+    font-size: 1.55w;
+    text-shadow: 0 0 10px rgba(73, 70, 70,0.5);
+}
+header nav ul li a:hover {
+    background: var(--secondary);
+    color: var(--light);
+    transition: all 0.35s ease;
+    border-radius: 15px;
+    text-shadow: none;
+}
+nav a:last-child {
+    margin-right: 0;
+}
+/*footer*/
+footer {
+    position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color:var(--primary);
+   color: var(--dark);
+   text-align: center;
+   border-radius: 15px 15px 0 0;
+}
+.footer a{
+    color: var(--dark);
+    text-decoration: none;
+}
+.footer {
+    margin: 5px 0px;
+}
+.bottom h3 {
+    text-align: center;
+    margin: 10px 0px;
+    text-shadow: 0 0 10px rgba(73, 70, 70,0.5);
+}
+.socials{
+    align-items: center;
+    line-height: 1.5;
+    padding: 10px 15px;
+}
+.socials li{
+    list-style: none;
+    text-transform: uppercase;
+    padding: 0;
+    display: inline;
+    padding: 10px 15px;
+}
+.socials li:hover , .socials li a:hover{
+    background: var(--secondary);
+    color: var(--light);
+    transition: all 0.35s ease;
+    border-radius: 15px;
+    text-shadow: none;
+}
+/*Jumbotron*/
+.hero {
+    background-image: url(../images/hero-image.jpg);
+}
