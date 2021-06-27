@@ -1,3 +1,13 @@
+# My Portfolio
+
+This is an outline of the work and projects I have done throughout my coding experiance.
+
+
+## Demo
+
+https://jessangarcia.github.io/myportfolio/
+
+![myportfolio webpage](assets/images/portfolioscreencapture.png)
 
 
 
@@ -5,8 +15,3 @@
 
 
 
-
-
-
-WHEN I resize the page or view the site on various screens and devices
-THEN I am presented with a responsive layout that adapts to my viewport
