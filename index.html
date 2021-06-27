@@ -14,7 +14,7 @@
     <nav>
         <ul>
             <li>
-                <a href="#about-me">About Me</a>
+                <a href="#aboutme">About Me</a>
             </li>
             <li>
                 <a href="#work">Work</a>
@@ -36,7 +36,7 @@
 </section>
 
 <!--bio-->
-<main class="page-bio">
+<main id="aboutme" class="page-bio">
     <!--about-->
     <section class="page-section">
         <div class="about">
@@ -49,31 +49,56 @@
 </main>
 <!--work-->
 <h2 class="work">Work</h2>
-<section class="container">
-    <article class="hexagon">
-        <div class="shape">
-            <img class="img-wrap" src="./assets/images/runbuddypage.png" alt="">
-            <p>HTML/Advanced CSS</p>
-        </div>
-    </article>
-    <article class="hexagon">
-        <div class="shape">
-            <img class="img-wrap"src="./assets/images/webpageimage copy.png" alt="">
-            <p class="img-text">HTML/Accessibility</p>
-        </div>
-    </article>
-    <article class="hexagon">
-        <div class="shape">
-            <img class="img-wrap" src="./assets/images/javascript.jpg" alt="">
-            <p class="img-text">JavaScript</p>
-        </div>
-    </article>
+<section id="work" class="container">
+    <div class="firstbox">
+        <article class="boxes">
+            <div class="links">
+                <a href="https://jessangarcia.github.io/run-buddy/" target="_blank" rel="noopener noreferrer"><img class="img-wrap" src="./assets/images/runbuddypage.png" alt="run buddy landing page" /></a>
+                <div class="img-title img-title--blur">
+                    <p class="text">HTML/Advanced CSS</p>
+                </div>
+            </div>
+        </article>
+    </div>
+    <div class="smboxes">
+        <article class="boxes">
+            <div class="links">
+                <a href="https://jessangarcia.github.io/horiseon/" target="_blank" rel="noopener noreferrer"><img class="img-wrap"src="./assets/images/webpageimage copy.png" alt="horiseon landing page" /></a>
+                <div class="img-title img-title--blur">
+                    <p class="text">HTML/Accessibility</p>
+                </div>
+            </div>
+        </article>
+        <article class="boxes">
+            <div class="links">
+                <img class="img-wrap" src="./assets/images/javascript.png" alt="javascript monitor and other items attached to it">
+                <div class="img-title img-title--blur">
+                    <p class="text">JavaScript</p>
+                </div>
+            </div>
+        </article>
+        <article class="boxes">
+            <div class="links">
+                <img class="img-wrap" src="./assets/images/nodeimage.png" alt="node">
+                <div class="img-title img-title--blur">
+                    <p class="text">Node</p>
+                </div>
+            </div>
+        </article>
+        <article class="boxes">
+            <div class="links">
+                <img class="img-wrap" src="./assets/images/codepage.jpg" alt="page of coding">
+                <div class="img-title img-title--blur">
+                    <p class="text">APIs</p>
+                </div>
+            </div>
+        </article>
+    </div>
 </section>
-<!--footer-->
-<footer>
-    <!--contact-->
-    <section class="bottom">
-        <h3>Contact Me</h2>
+<!--contact-->
+<footer class="myinfo">
+    <section id="contact-me" class="bottom">
+        <h3 class="contact">Contact Me</h2>
         <div class="footer">
             <ul class="socials">
                 <li>
